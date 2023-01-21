@@ -77,7 +77,7 @@ body {
     flex-direction: column;
     row-gap: 20px;
 
-    width: 360px;
+    min-width: 360px;
     padding: 30px;
     
     background-color: #ffffff;
@@ -141,6 +141,12 @@ body {
 .card-description {
     font-size: 20px;
     line-height: 1.2;
+    object-fit: cover;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
 }
 
 footer {
